@@ -16,7 +16,7 @@ const deleteText=()=>{
     }
    
 function checkinput(){
-  const chars=/^[-+]?[0-9]+([-+*/]+[-+]?[0-9]+)*$/;
+  const chars=/^[-+]?[0-9]+([-+*./]+[-+]?[0-9]+)*$/;
   const allowed=chars.test(InputText);
   if(allowed)
   {
@@ -36,7 +36,7 @@ setInput(fullText);
 
  return(
    <div> 
-   <h1>Calculator by Raveesh</h1>
+   
    <input className="bt0" type='text' value={InputText} onChange={recordInput}></input>
    
     <div className='contain'>
@@ -57,7 +57,8 @@ setInput(fullText);
       <button value="*" onClick={addIt} >*</button>
       <button className='equal' onClick={checkinput} >Enter</button>
       <button  value="/" onClick={addIt} >/</button>
-    </div></div>
+    </div>
+    <h2>Calculator by Raveesh</h2></div>
   )
 }
 
