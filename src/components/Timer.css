@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c74b50;
+    padding: 15px;
+    border-radius: 5%;
+}
+.top-layer {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+  .btn-group {
+   padding:30px;
+  }
+  
+.btn-plus {
+    width: fit-content;
+  font-size: 100px;
+font-weight: bolder;
+  border: 1px solid rgba(182, 84, 92, 0.74);
+  font-family: "Luxurious Roman", cursive;
+  cursor: pointer;
+}
+.control{
+    text-align: center;
+}
+.btn-control {
+  width: 150px;
+  height: 70px;
+  font-size: x-large;
+  border: 1px solid rgba(182, 84, 92, 0.74);
+  font-family: "Luxurious Roman", cursive;
+  background-color: #D9CE3F;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.btn-control:hover{
+    background-color: grey;
+    color:white;
+}
+h1 {
+ align-self: center;
+  font-family: "Luxurious Roman", cursive;
+  background-color: #AD8B73;
+  padding:20px;
+  color: Black;
+  font-size: 80px;
+  text-align: center;
+  border-radius: 10%;
+  font-family: 'Rock Salt', cursive;
+  border-style:groove solid;
+}
+.time-cont{
+width: 420px;
+
+}
+h2{
+    color:black;
+    background-color: white;
+    min-width:50px;
+    border-radius: 10%;
+    box-shadow: inset grey 15px 25px 0 0;
+    margin:5px;
+}
+h2:hover{
+    color:white;
+    background-color: black;
+}
