@@ -58,7 +58,7 @@ setInput(fullText);
       <button className='equal' onClick={checkinput} >Enter</button>
       <button  value="/" onClick={addIt} >/</button>
     </div>
-    <h2>Calculator by Raveesh</h2></div>
+    <h2 className='footer'>Calculator by Raveesh</h2></div>
   )
 }
 
